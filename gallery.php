@@ -38,17 +38,17 @@
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2" data-aos="fade-down">
-            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">السالماني</a></h1>
+            <h1 class="mb-0"><a href="index.php" class="text-black h2 mb-0">السالماني</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">الصفحه الرئيسيه</a></li>
+                <li><a href="index.php">الصفحه الرئيسيه</a></li>
                 <li class="active"><a href="#">المعرض</a></li>
-                <li><a href="services.html">الخدمات</a></li>
-                <li><a href="about.html">من نحن</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="services.php">الخدمات</a></li>
+                <li><a href="about.php">من نحن</a></li>
+                <li><a href="contact.php">اتصل بنا</a></li>
               </ul>
             </nav>
           </div>
@@ -236,7 +236,7 @@
     <div class="container-fluid text-center">
       <p class="copyright">
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-       جميع الحقوق محفوظة لشركة <a href="index.html">السالماني</a> سنة 2019©
+       جميع الحقوق محفوظة لشركة <a href="index.php">السالماني</a> سنة 2019©
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
     </div>

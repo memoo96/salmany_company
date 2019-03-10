@@ -35,23 +35,23 @@
 
 
 
-    <header class="site-navbar  py-3 border-bottom" role="banner">
+    <header class="site-navbar py-3 border-bottom" role="banner">
 
       <div class="container-fluid">
         <div class="row align-items-center">
           
           <div class="col-6 col-xl-2" data-aos="fade-down">
-            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">السالماني</a></h1>
+            <h1 class="mb-0"><a href="index.php" class="text-black h2 mb-0">السالماني</a></h1>
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">الصفحه الرئيسيه</a></li>
+                <li><a href="index.php">الصفحه الرئيسيه</a></li>
                 <li><a href="gallery.php">المعرض</a></li>
-                <li><a href="services.html">الخدمات</a></li>
-                <li><a href="about.html">من نحن</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="services.php">الخدمات</a></li>
+                <li  class="active"><a href="#">من نحن</a></li>
+                <li><a href="contact.php">اتصل بنا</a></li>
               </ul>
             </nav>
           </div>
@@ -79,71 +79,46 @@
 
 
 
-  <div class="container-fluid" data-aos="fade" data-aos-delay="500">
-    <div class="swiper-container images-carousel">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/1.jpg" alt="Image">
-              </div>
+  <div class=""  data-aos="fade" style="text-align: center;direction: ltr">
+    <div class="container-fluid">
+      
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="row mb-5 site-section">
+            <div class="col-12 ">
+              <h2 class="site-section-heading text-center">عن السالماني</h2>
             </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/2.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/3.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/4.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/5.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/6.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <a href="gallery.php" class="btn btn-outline-white py-2 px-4">المزيد من الصور</a>
-                </div>
-                <img src="images/imgs/7.jpg" alt="Image">
-              </div>
-            </div>
-        </div>
+          </div>
 
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar"></div>
+          <div class="row mb-5">
+            <div class="col-md-7  mb-4">
+              <img src="images/imgs/1.jpg" alt="Images" class="img-fluid">
+            </div>
+            <div class="col-md-4 ml-auto">
+              <h3>مهمتنا</h3>
+              <p>تصنيع جميع انواع الحديد والفورجيه بجميع انواعه ونساعدك بتقديم أفضل خدمة في مصر وتجربة
+                تسوق
+                سهلة الاستخدام أفضل
+                الأسعار
+                في مصر </p>
+            </div>
+          </div>
+
+         
+          <div class="row site-section">
+            <div class="col-lg-12 text-center mb-5">
+              <img src="images/hani.jpg" alt="Image" class="img-fluid w-70 rounded-circle mb-4">
+              <h2 class="text-black font-weight-light mb-4">هانى سالمان</h2>
+              <p class="mb-4">صاحب شركة السالماني والقائم بالاشراف على جميع العاملين والمتابعه على جميع الأعمال بصفه مباشرة للحصول على الجوده الكاملة</p>
+              <p>
+                <a href="https://www.instagram.com/hnslmnllwl/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="https://www.facebook.com/profile.php?id=100003509188152" target="_blank"  class="pl-3 pr-3"><span class="icon-facebook"></span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
     </div>
   </div>
 
@@ -151,15 +126,22 @@
     <div class="container-fluid text-center">
       <p class="copyright">
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-       جميع الحقوق محفوظة لشركة <a href="index.html">السالماني</a> سنة 2019©
+       جميع الحقوق محفوظة لشركة <a href="index.php">السالماني</a> سنة 2019©
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
     </div>
   </div>
 
+  <!-- Start Scroll To Top  -->
+  <div class="scroll_top">
+    <i class="fa fa-chevron-up"></i>
+  </div>
+  <!-- End Scroll To Top -->
+ 
+
+    
     
   </div>
-
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
